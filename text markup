@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html lang = "en">   
+    <head>     
+        <title> A title for the document </title>
+        <meta charset = "utf-8" />  
+        </head>
+        <body>
+       <h1> Theoream</h1>
+       <p><b>Theorem:</b>Every prime number (greater than 2) modulo 4 can be written in the form 4n + 1 or 4n + 3.
+       </p>
+        <p><b>Proof:</b>Any number p when divided by 4 leaves remainder 0, 1, 2 or 3. <br
+        Therefore, the number has the form 4n, 4n + 1, 4n + 2 or 4n + 3. Since 4n and 4n + 2 are even,<br>
+        so these can not be a form of a prime number which is an odd number (except 2).  proves the theorem. ◻
+       </p>
+
+       <h2> Formula</h2>
+       <p>e<sup> &iota &theta</sup> = COS &theta + &iota SIN &theta</p>
+       <p><sup>n</sup> C <sub>r</sub> = <sup>n!</sup> / <sub> (n-r)!r!</sub>is equal to the number of ways of selecting r items from n distinct items.
+       </p>
+
+       <h3> Pattern</h3>
+       <p> <pre>  
+                   *
+                  ***
+                 *****
+                 </pre>
+                 </p>
+                 <hr>
+      <p> <pre>
+               *****
+                ***
+                 * 
+                 </pre>
+                 </p>
+     <h4> Code</h4>
+     <p>
+     let sum = (a, b) => {
+    return a + b;
+}
+console.log(sum(3 + 4));//prints 7
+</p>
+
+<h5>
+       
+        
+    </body> 
+</html>
+
