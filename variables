@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang = "en>
+<head>
+<title> Equation to solve two variables in programing language</title>
+<meta charset = "utf-8" />     
+</head>
+<body>
+<H1> PYTHON PROGRAMING LANGUAGE</H1>
+<P>
+from sympy import symbols, Eq, solve
+
+# Define the variables
+x, y = symbols('x y')
+
+# Define the system of equations
+equation1 = Eq(2*x + 3*y, 10)
+equation2 = Eq(4*x - 2*y, 4)
+
+# Solve the system of equations
+solution = solve((equation1, equation2), (x, y))
+
+# Print the solution
+print("Solution for x and y:", solution)
+</P>
+<h2> OUTPUT</h2>
+<p>
+2x + 3y = 10
+4x - 2y = 4
+</p>
+</body>
+</html>
