@@ -1,0 +1,44 @@
+
+.Container{
+position: relative;
+border: 2px solid greenyellow;
+margin-top: 100px;
+overflow: auto;
+height: 200px;
+
+}
+.cell{
+border: 1px solid rgb(196, 9, 9);
+margin: 1em;
+padding: 1em;
+
+}
+
+.item1{
+position: relative;
+left: 50px;
+top: 30px;
+}
+
+.item2{
+position: absolute;
+left: 20px;
+
+}
+.item3{
+position: fixed;
+left: 50px;
+top: 140px;
+color: white;
+background-color: black;
+
+}
+.item4{
+position: sticky;
+top: 0;
+color: white;
+background-color: pink;
+
+}
+
+
